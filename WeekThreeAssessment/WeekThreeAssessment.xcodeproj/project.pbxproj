@@ -14,6 +14,8 @@
 		51DC942026B4BE2F001C2534 /* WeekThreeAssessment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51DC941E26B4BE2F001C2534 /* WeekThreeAssessment.xcdatamodeld */; };
 		51DC942226B4BE31001C2534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51DC942126B4BE31001C2534 /* Assets.xcassets */; };
 		51DC942526B4BE31001C2534 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51DC942326B4BE31001C2534 /* LaunchScreen.storyboard */; };
+		51DC942F26B4BF49001C2534 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DC942E26B4BF49001C2534 /* CoreDataStack.swift */; };
+		51DC943426B4BFDB001C2534 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DC943326B4BFDB001C2534 /* DateFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		51DC942126B4BE31001C2534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51DC942426B4BE31001C2534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51DC942626B4BE31001C2534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51DC942E26B4BF49001C2534 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		51DC943326B4BFDB001C2534 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,11 @@
 		51DC941426B4BE2F001C2534 /* WeekThreeAssessment */ = {
 			isa = PBXGroup;
 			children = (
+				51DC943226B4BFC2001C2534 /* Helpers+Extensions */,
+				51DC943026B4BF96001C2534 /* Views */,
+				51DC942D26B4BF16001C2534 /* CoreData */,
 				51DC942C26B4BE40001C2534 /* Resources */,
 				51DC941926B4BE2F001C2534 /* ViewController.swift */,
-				51DC941B26B4BE2F001C2534 /* Main.storyboard */,
-				51DC942326B4BE31001C2534 /* LaunchScreen.storyboard */,
-				51DC941E26B4BE2F001C2534 /* WeekThreeAssessment.xcdatamodeld */,
 			);
 			path = WeekThreeAssessment;
 			sourceTree = "<group>";
@@ -76,6 +80,40 @@
 				51DC942626B4BE31001C2534 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		51DC942D26B4BF16001C2534 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				51DC941E26B4BE2F001C2534 /* WeekThreeAssessment.xcdatamodeld */,
+				51DC942E26B4BF49001C2534 /* CoreDataStack.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		51DC943026B4BF96001C2534 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				51DC943126B4BF9B001C2534 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		51DC943126B4BF9B001C2534 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				51DC941B26B4BE2F001C2534 /* Main.storyboard */,
+				51DC942326B4BE31001C2534 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		51DC943226B4BFC2001C2534 /* Helpers+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				51DC943326B4BFDB001C2534 /* DateFormatter.swift */,
+			);
+			path = "Helpers+Extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +186,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51DC943426B4BFDB001C2534 /* DateFormatter.swift in Sources */,
+				51DC942F26B4BF49001C2534 /* CoreDataStack.swift in Sources */,
 				51DC942026B4BE2F001C2534 /* WeekThreeAssessment.xcdatamodeld in Sources */,
 				51DC941A26B4BE2F001C2534 /* ViewController.swift in Sources */,
 				51DC941626B4BE2F001C2534 /* AppDelegate.swift in Sources */,

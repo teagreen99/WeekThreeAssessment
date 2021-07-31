@@ -43,11 +43,19 @@ class EventListTableViewController: UITableViewController {
         return cell
     }
     
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            let event = EventController.sharedInstance.sections[indexPath.section][indexPath.row]
+            EventController.sharedInstance.deleteEvent(event)
+            tableView.deleteRows(at: [indexPath], with: .automatic)
+        }
+    }
+    
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         if section == 0 {
-            return "Not Yet Attended"
+            return "Still Need to Complete"
         } else if section == 1 {
-            return "Attended"
+            return "Completed"
         }
         return nil
     }
@@ -66,6 +74,7 @@ class EventListTableViewController: UITableViewController {
 extension EventListTableViewController: EventCellDelegate {
     func eventWasAttendedTapped(wasAttended: Bool, event: Event) {
         EventController.sharedInstance.updateEventStatus(wasAttended, event: event)
+        tableView.reloadData()
     }
 } // End of extension
 

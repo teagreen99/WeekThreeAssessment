@@ -18,20 +18,20 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="eventCell" id="no9-8L-k1w" customClass="EventTableViewCell" customModule="WeekThreeAssessment" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="24.5" width="320" height="90.5"/>
+                                <rect key="frame" x="0.0" y="24.5" width="320" height="84.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="no9-8L-k1w" id="T2l-sh-E0E">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="90.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="84.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wRv-BE-ujy">
-                                            <rect key="frame" x="32" y="27" width="197.5" height="36.5"/>
-                                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wRv-BE-ujy">
+                                            <rect key="frame" x="24" y="27" width="225.5" height="30.5"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9kt-G8-PBg">
-                                            <rect key="frame" x="245.5" y="16" width="58.5" height="58.5"/>
+                                            <rect key="frame" x="265.5" y="19" width="46.5" height="46.5"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="9kt-G8-PBg" secondAttribute="height" multiplier="1:1" id="UFJ-X3-Mu8"/>
                                             </constraints>
@@ -45,18 +45,18 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="9kt-G8-PBg" firstAttribute="leading" secondItem="wRv-BE-ujy" secondAttribute="trailing" constant="16" id="39D-U3-GVM"/>
-                                        <constraint firstAttribute="trailing" secondItem="9kt-G8-PBg" secondAttribute="trailing" constant="16" id="Eat-xF-wPC"/>
-                                        <constraint firstAttribute="bottom" secondItem="9kt-G8-PBg" secondAttribute="bottom" constant="16" id="Eje-pz-WZG"/>
-                                        <constraint firstItem="wRv-BE-ujy" firstAttribute="leading" secondItem="T2l-sh-E0E" secondAttribute="leadingMargin" constant="16" id="GZm-zr-ysF"/>
+                                        <constraint firstItem="wRv-BE-ujy" firstAttribute="leading" secondItem="T2l-sh-E0E" secondAttribute="leadingMargin" constant="8" id="GZm-zr-ysF"/>
                                         <constraint firstItem="wRv-BE-ujy" firstAttribute="top" secondItem="T2l-sh-E0E" secondAttribute="topMargin" constant="16" id="IyO-OU-4UK"/>
-                                        <constraint firstItem="9kt-G8-PBg" firstAttribute="top" secondItem="T2l-sh-E0E" secondAttribute="top" constant="16" id="NI4-iA-DUL"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="wRv-BE-ujy" secondAttribute="bottom" constant="16" id="dNG-aI-cP3"/>
+                                        <constraint firstItem="9kt-G8-PBg" firstAttribute="trailing" secondItem="T2l-sh-E0E" secondAttribute="trailingMargin" constant="8" id="ket-Vr-nYF"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="9kt-G8-PBg" secondAttribute="bottom" constant="8" id="kgP-mY-BkU"/>
+                                        <constraint firstItem="9kt-G8-PBg" firstAttribute="top" secondItem="T2l-sh-E0E" secondAttribute="topMargin" constant="8" id="nOl-Hu-2tl"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="eventNameLabel" destination="wRv-BE-ujy" id="jGp-2C-aj5"/>
                                     <outlet property="eventWasAttendedButton" destination="9kt-G8-PBg" id="6jM-ln-OE2"/>
-                                    <segue destination="Ymc-S5-nxV" kind="show" identifier="toEventDetailVC" id="tjO-h0-WJC"/>
+                                    <segue destination="Ymc-S5-nxV" kind="show" identifier="toEventDetailVC" id="bKD-Fu-lnC"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -151,7 +151,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="tjO-h0-WJC"/>
+        <segue reference="bKD-Fu-lnC"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="calendar" catalog="system" width="128" height="106"/>

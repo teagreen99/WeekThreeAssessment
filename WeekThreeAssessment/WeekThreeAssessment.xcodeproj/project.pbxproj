@@ -9,23 +9,37 @@
 /* Begin PBXBuildFile section */
 		51DC941626B4BE2F001C2534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DC941526B4BE2F001C2534 /* AppDelegate.swift */; };
 		51DC941826B4BE2F001C2534 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DC941726B4BE2F001C2534 /* SceneDelegate.swift */; };
-		51DC941A26B4BE2F001C2534 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DC941926B4BE2F001C2534 /* ViewController.swift */; };
 		51DC941D26B4BE2F001C2534 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51DC941B26B4BE2F001C2534 /* Main.storyboard */; };
 		51DC942026B4BE2F001C2534 /* WeekThreeAssessment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51DC941E26B4BE2F001C2534 /* WeekThreeAssessment.xcdatamodeld */; };
 		51DC942226B4BE31001C2534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51DC942126B4BE31001C2534 /* Assets.xcassets */; };
 		51DC942526B4BE31001C2534 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51DC942326B4BE31001C2534 /* LaunchScreen.storyboard */; };
+		51DC942F26B4BF49001C2534 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DC942E26B4BF49001C2534 /* CoreDataStack.swift */; };
+		51DC943426B4BFDB001C2534 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DC943326B4BFDB001C2534 /* DateFormatter.swift */; };
+		51DC943626B4C66F001C2534 /* Event+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DC943526B4C66F001C2534 /* Event+Convenience.swift */; };
+		51DC943A26B4C891001C2534 /* EventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DC943926B4C891001C2534 /* EventController.swift */; };
+		51DC943C26B4CDB4001C2534 /* AttendedDate+ConVenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DC943B26B4CDB4001C2534 /* AttendedDate+ConVenience.swift */; };
+		51DC943E26B4D213001C2534 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DC943D26B4D213001C2534 /* EventTableViewCell.swift */; };
+		51DC944426B4D7B3001C2534 /* EventListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DC944326B4D7B3001C2534 /* EventListTableViewController.swift */; };
+		51DC944626B4DCFB001C2534 /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DC944526B4DCFB001C2534 /* EventDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		51DC941226B4BE2F001C2534 /* WeekThreeAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeekThreeAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51DC941526B4BE2F001C2534 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51DC941726B4BE2F001C2534 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		51DC941926B4BE2F001C2534 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		51DC941C26B4BE2F001C2534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51DC941F26B4BE2F001C2534 /* WeekThreeAssessment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeekThreeAssessment.xcdatamodel; sourceTree = "<group>"; };
 		51DC942126B4BE31001C2534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51DC942426B4BE31001C2534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51DC942626B4BE31001C2534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51DC942E26B4BF49001C2534 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		51DC943326B4BFDB001C2534 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		51DC943526B4C66F001C2534 /* Event+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Event+Convenience.swift"; sourceTree = "<group>"; };
+		51DC943926B4C891001C2534 /* EventController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventController.swift; sourceTree = "<group>"; };
+		51DC943B26B4CDB4001C2534 /* AttendedDate+ConVenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AttendedDate+ConVenience.swift"; sourceTree = "<group>"; };
+		51DC943D26B4D213001C2534 /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		51DC944326B4D7B3001C2534 /* EventListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListTableViewController.swift; sourceTree = "<group>"; };
+		51DC944526B4DCFB001C2534 /* EventDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +72,11 @@
 		51DC941426B4BE2F001C2534 /* WeekThreeAssessment */ = {
 			isa = PBXGroup;
 			children = (
+				51DC942D26B4BF16001C2534 /* CoreData */,
+				51DC943726B4C869001C2534 /* Controllers */,
+				51DC943026B4BF96001C2534 /* Views */,
+				51DC943226B4BFC2001C2534 /* Helpers+Extensions */,
 				51DC942C26B4BE40001C2534 /* Resources */,
-				51DC941926B4BE2F001C2534 /* ViewController.swift */,
-				51DC941B26B4BE2F001C2534 /* Main.storyboard */,
-				51DC942326B4BE31001C2534 /* LaunchScreen.storyboard */,
-				51DC941E26B4BE2F001C2534 /* WeekThreeAssessment.xcdatamodeld */,
 			);
 			path = WeekThreeAssessment;
 			sourceTree = "<group>";
@@ -76,6 +90,77 @@
 				51DC942626B4BE31001C2534 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		51DC942D26B4BF16001C2534 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				51DC941E26B4BE2F001C2534 /* WeekThreeAssessment.xcdatamodeld */,
+				51DC942E26B4BF49001C2534 /* CoreDataStack.swift */,
+				51DC943526B4C66F001C2534 /* Event+Convenience.swift */,
+				51DC943B26B4CDB4001C2534 /* AttendedDate+ConVenience.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		51DC943026B4BF96001C2534 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				51DC943F26B4D235001C2534 /* CustomViews */,
+				51DC943126B4BF9B001C2534 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		51DC943126B4BF9B001C2534 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				51DC941B26B4BE2F001C2534 /* Main.storyboard */,
+				51DC942326B4BE31001C2534 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		51DC943226B4BFC2001C2534 /* Helpers+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				51DC943326B4BFDB001C2534 /* DateFormatter.swift */,
+			);
+			path = "Helpers+Extensions";
+			sourceTree = "<group>";
+		};
+		51DC943726B4C869001C2534 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				51DC944026B4D707001C2534 /* ViewControllers */,
+				51DC943826B4C875001C2534 /* ModelControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		51DC943826B4C875001C2534 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				51DC943926B4C891001C2534 /* EventController.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		51DC943F26B4D235001C2534 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				51DC943D26B4D213001C2534 /* EventTableViewCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		51DC944026B4D707001C2534 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				51DC944326B4D7B3001C2534 /* EventListTableViewController.swift */,
+				51DC944526B4DCFB001C2534 /* EventDetailViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,9 +233,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51DC943E26B4D213001C2534 /* EventTableViewCell.swift in Sources */,
+				51DC943C26B4CDB4001C2534 /* AttendedDate+ConVenience.swift in Sources */,
+				51DC943626B4C66F001C2534 /* Event+Convenience.swift in Sources */,
+				51DC943426B4BFDB001C2534 /* DateFormatter.swift in Sources */,
+				51DC942F26B4BF49001C2534 /* CoreDataStack.swift in Sources */,
 				51DC942026B4BE2F001C2534 /* WeekThreeAssessment.xcdatamodeld in Sources */,
-				51DC941A26B4BE2F001C2534 /* ViewController.swift in Sources */,
+				51DC944426B4D7B3001C2534 /* EventListTableViewController.swift in Sources */,
 				51DC941626B4BE2F001C2534 /* AppDelegate.swift in Sources */,
+				51DC943A26B4C891001C2534 /* EventController.swift in Sources */,
+				51DC944626B4DCFB001C2534 /* EventDetailViewController.swift in Sources */,
 				51DC941826B4BE2F001C2534 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

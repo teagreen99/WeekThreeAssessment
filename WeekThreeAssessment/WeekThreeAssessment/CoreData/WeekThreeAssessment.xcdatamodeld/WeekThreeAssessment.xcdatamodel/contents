@@ -6,12 +6,12 @@
     </entity>
     <entity name="Event" representedClassName="Event" syncable="YES" codeGenerationType="class">
         <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
-        <attribute name="name" optional="YES" attributeType="String"/>
-        <attribute name="timeOfDay" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
-        <relationship name="attendedDates" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AttendedDate" inverseName="event" inverseEntity="AttendedDate"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="timeOfDay" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="attendedDates" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AttendedDate" inverseName="event" inverseEntity="AttendedDate"/>
     </entity>
     <elements>
-        <element name="Event" positionX="-27" positionY="18" width="128" height="89"/>
-        <element name="AttendedDate" positionX="18" positionY="90" width="128" height="59"/>
+        <element name="AttendedDate" positionX="186.8763427734375" positionY="-144.9648132324219" width="128" height="59"/>
+        <element name="Event" positionX="-665.107421875" positionY="-109.2430725097656" width="128" height="103"/>
     </elements>
 </model>
